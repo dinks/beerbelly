@@ -1,0 +1,48 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.openbeerdatabase.com/v1/breweries.json?
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers: {}
+  response:
+    status:
+      code: 200
+      message: ! 'OK '
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 03 Nov 2013 01:06:43 GMT
+      Etag:
+      - ! '"cdbc9fb7d862b70f1cf5af883a2816d0"'
+      Server:
+      - WEBrick/1.3.1 (Ruby/1.9.2/2011-07-09)
+      X-Rack-Cache:
+      - miss
+      X-Request-Id:
+      - de94356b5fb3ca2f6e0dcee1ac9e65cc
+      X-Runtime:
+      - '0.009301'
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Content-Length:
+      - '1142'
+      Connection:
+      - keep-alive
+    body:
+      encoding: US-ASCII
+      string: ! '{"page":1,"pages":1,"total":8,"breweries":[{"id":1,"name":"(512)
+        Brewing Company","url":"http://512brewing.com","created_at":"2010-12-07T02:53:38Z","updated_at":"2010-12-07T02:53:38Z"},{"id":2,"name":"21st
+        Amendment Brewing","url":"http://21st-amendment.com","created_at":"2010-12-07T02:53:38Z","updated_at":"2010-12-07T02:53:38Z"},{"id":3,"name":"Abbaye
+        de Leffe","url":"http://www.abbaye-de-leffe.be","created_at":"2010-12-07T02:53:38Z","updated_at":"2010-12-07T02:53:38Z"},{"id":4,"name":"Abita
+        Brewing Company","url":"http://abita.com","created_at":"2010-12-07T02:53:38Z","updated_at":"2010-12-07T02:53:38Z"},{"id":5,"name":"Alaskan
+        Brewing Company","url":"http://alaskanbeer.com","created_at":"2011-05-29T03:20:23Z","updated_at":"2011-05-29T03:20:23Z"},{"id":6,"name":"Ale
+        Asylum","url":"http://aleasylum.com","created_at":"2011-05-29T03:20:23Z","updated_at":"2011-05-29T03:20:23Z"},{"id":7,"name":"AleSmith","url":"http://alesmith.com","created_at":"2011-05-29T03:20:23Z","updated_at":"2011-05-29T03:20:23Z"},{"id":51,"name":"Adnams","url":"http://adnams.co.uk","created_at":"2013-01-18T14:50:33Z","updated_at":"2013-01-18T15:19:04Z"}]}'
+    http_version: 
+  recorded_at: Sun, 03 Nov 2013 01:06:43 GMT
+recorded_with: VCR 2.7.0
