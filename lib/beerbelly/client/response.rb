@@ -23,7 +23,7 @@ module Beerbelly
         when 'beer'
           @objects = [ Beerbelly::Beer.build(response.to_hash) ]
         when 'breweries'
-          @objects = response[type].collect { |beer| Beerbelly::Brewery.build beer }
+          @objects = response[type].collect { |brewery| Beerbelly::Brewery.build brewery }
         when 'brewery'
           @objects = [ Beerbelly::Brewery.build(response.to_hash) ]
         end
