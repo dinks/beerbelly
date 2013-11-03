@@ -45,7 +45,7 @@ module Beerbelly
 
     ALLOWED_OPTIONS = ['order', 'page', 'per_page', 'query', 'token'].freeze
     def sanitize_options(options)
-      options.merge!(configuration.to_hash).reject { |key, value| !ALLOWED_OPTIONS.include?(key) }
+      options.merge!(configuration.to_hash).reject { |key, value| !ALLOWED_OPTIONS.include?(key.to_s) }
     end
   end
 end
