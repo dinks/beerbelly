@@ -18,6 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
+```
+    b = Beerbelly.beers
+    b.length # 50
+    b.first  # #<Beerbelly::Beer>
+```
 
 ## Generator
 
