@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Dinesh Vasudevan"]
   spec.email         = ["dinesh.vasudevan@gmail.com"]
   spec.description   = %q{ An implementation for the Open Beer Database }
-  spec.summary       = %q{ Users will be able to view all/one beer }
-  spec.homepage      = ""
+  spec.summary       = %q{ Users will be able to view all/one beer/brewery }
+  spec.homepage      = "https://github.com/dinks/beerbelly"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
