@@ -8,7 +8,12 @@ require "beerbelly/client/resources/brewery"
 module Beerbelly
   class Client
     class Response
+      extend Forwardable
+
       attr_reader :page, :pages, :total, :objects
+
+      def_delegators :@objects, :[], :length
+
       def initialize(response, type)
         return Beerbelly::Client::Error.new(response.code) if response.code != 200
 

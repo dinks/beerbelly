@@ -17,7 +17,7 @@ describe Beerbelly::Client::Beer do
     end
 
     it 'should have 50 entries' do
-      expect(beers.objects.length).to eql(50)
+      expect(beers.length).to eql(50)
     end
 
   end
@@ -31,7 +31,7 @@ describe Beerbelly::Client::Beer do
     end
 
     it 'should have 1 entries' do
-      expect(beer.objects.length).to eql(1)
+      expect(beer.length).to eql(1)
     end
 
   end
