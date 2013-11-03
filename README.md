@@ -1,4 +1,4 @@
-# Beerbelly
+# Beerbelly [![Code Climate](https://codeclimate.com/github/dinks/beerbelly.png)](https://codeclimate.com/github/dinks/beerbelly)
 
 - An implementation for The [Open Beer Database](http://openbeerdatabase.com)
 
