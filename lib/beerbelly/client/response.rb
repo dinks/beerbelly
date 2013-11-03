@@ -12,7 +12,7 @@ module Beerbelly
 
       attr_reader :page, :pages, :total, :objects
 
-      def_delegators :@objects, :[], :length
+      def_delegators :@objects, :[], :length, :first, :last
 
       def initialize(response, type)
         return Beerbelly::Client::Error.new(response.code) if response.code != 200
