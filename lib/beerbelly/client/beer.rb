@@ -14,12 +14,13 @@ module Beerbelly
       private
 
       def get_beers(options={})
-        get_resource 'beers', options if respond_to? :get_resource # This I think is wrong
+        get_resource 'beers', options
       end
 
       def get_beer(id, options={})
-        get_resource "beers/#{id}", options if respond_to? :get_resource # This I think is wrong
+        get_resource "beers/#{id}", options
       end
+
     end
   end
 end
