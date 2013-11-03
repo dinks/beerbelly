@@ -18,11 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-```
     b = Beerbelly.beers
     b.length # 50
     b.first  # #<Beerbelly::Beer>
-```
+
+
+One could query with search strings
+
+    b = Beerbelly.beers(query: 'Strawberry')
 
 ## Generator
 
