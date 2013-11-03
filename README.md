@@ -18,7 +18,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+
+## Generator
+
+Generate the initializer using the command
+
+`rails generate beerbelly:initializer --access_token=test`
 
 ## Contributing
 
